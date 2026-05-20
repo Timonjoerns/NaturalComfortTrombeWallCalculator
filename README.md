@@ -33,7 +33,7 @@ During the day, solar radiation passes through the glazing, is absorbed by the d
 
 1. Navigate to the project directory:
    ```bash
-   cd /path/to/TBC
+   cd /path/to/NaturalComfortTrombeWallCalculator
    ```
 
 2. Install dependencies:
@@ -68,7 +68,7 @@ npm run preview
 ## Project Structure
 
 ```
-TBC/
+NaturalComfortTrombeWallCalculator/
 ├── src/
 │   ├── components/
 │   │   ├── InputPanel.tsx          # Left panel with design inputs
