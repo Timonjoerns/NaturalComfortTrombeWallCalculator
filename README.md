@@ -159,19 +159,6 @@ The calculator provides contextual design guidance:
 - Material thickness recommendations
 - Always-included reminder about summer shading and night control
 
-## Visualization
-
-The SVG section diagram shows:
-- Sun and incoming solar radiation
-- Glazing layer (blue)
-- Air cavity (light gray)
-- Thermal mass wall (brown)
-- Interior room (warm white)
-- Heat release arrows into the room
-- Wall thickness and air gap dimensions
-- Warning indicators if performance is low
-
-The diagram updates in real-time as you adjust inputs. Arrow intensities and visual emphasis change based on calculated heat flows.
 
 ## Technologies Used
 
@@ -181,48 +168,23 @@ The diagram updates in real-time as you adjust inputs. Arrow intensities and vis
 - **Vite**: Fast build tool and dev server
 - **SVG**: Vector graphics for visualization
 
-## Code Quality
-
-- Clean, modular component architecture
-- Separated calculation logic into pure functions
-- TypeScript interfaces for type safety
-- Comprehensive inline documentation
-- Reusable input field components
-- Responsive design with mobile-first approach
 
 ## Educational Use
 
 This calculator is designed for:
-- Architecture and engineering students learning passive solar design
+- Architecture students learning passive solar design
 - Schematic design phase exploration
 - Parameter sensitivity analysis
 - Quick feasibility assessment
 
 **Important**: This is a simplified design tool intended for early-stage schematic exploration. It should not replace:
-- Detailed thermal simulation software (e.g., EnergyPlus, Ladybug, WUFI)
+- Detailed thermal simulation software
 - Professional engineering consultation
 - Code compliance analysis
 - Detailed thermal comfort assessment
-
-## Future Enhancements
-
-Potential additions (not in current scope):
-- Export results to PDF or CSV
-- Save/load design presets
-- More sophisticated time lag calculations
-- Hourly performance profiles
-- Comparison mode for multiple designs
-- Dark mode theme
 
 ## Licensing
 
 Educational tool for learning purposes.
 
-## Support
-
-For questions or suggestions about the calculator, refer to the in-app "How it works" section and disclaimer for methodological limitations.
-
----
-
-**Created for**: Architecture and passive solar design education  
 **Last Updated**: May 2026
